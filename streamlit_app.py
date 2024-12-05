@@ -1,8 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
-
-import streamlit as st
 from transformers import pipeline
 
 # Load pre-trained fact-checking model
