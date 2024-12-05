@@ -6,7 +6,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load pre-trained fact-checking model
-fact_checker = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+fact_checker = pipeline("zero-shot-classification", model="distilbert-base-uncased")
 
 # Define the labels for classification (can be modified)
 labels = ["True", "False"]
